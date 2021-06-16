@@ -1,34 +1,99 @@
-body{
+    body{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1{
 
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h1{
+        font-size: 45px;
+    }
+    P{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .orange-heiglight{
+        color: orange;
+    }
 
-    font-size: 45px;
-}
-P{
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.name{
-    color: orange;
-}
+    .half-wdith{
 
-.half-wdith{
-
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.half-wdith img{
-    width: 90%;
-}
-.logo{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
+    .half-wdith img{
+        width: 70%;
+        margin-top: 90px;
     
-    background-color: orangered;
-    color: white;
-    margin: 3px;
-    padding: 3px;
-}
+    }
+    .logo{
+        
+        background-color: orangered;
+        color: white;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .top-banner{
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+    
+    }
+
+    section{
+        height: 500px;
+        
+    }
+
+    .link-button{
+
+            text-decoration: none;
+            background-image: linear-gradient(45deg,lightsalmon,tomato);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+
+    }
+
+    .dream-aera{
+
+        background-image: url("images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .single-experience{
+
+        box-shadow: 10px 10px 40px grey;
+        border-radius: 5px;
+        height: 50%;
+        background-color: white;
+    }
+
+    .experience-area{
+        background-image: url("images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+
+    #full-stack{
+
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,lightsalmon,tomato);
+        border-image-slice: 1;
+
+    }
+
+    #hubby-web{
+
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,blue, cyan);
+        border-image-slice: 1;
+    }
+
+    footer{
+        text-align: center;
+       font-size: 10px;
+    }
